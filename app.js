@@ -4,7 +4,7 @@ import path from "path"
 import  {dirname} from "path";
 import {fileURLToPath} from "url"
 import { type } from "os";
-import {imagesFromCloud} from 'Cloudinary/cloudinary.js';
+import {imagesFromCloud} from './Cloudinary/cloudinary.js';
 import {insertProduct, updateStock, removeProduct} from './database/configuration.js';
 
 
